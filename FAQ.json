@@ -1,0 +1,391 @@
+{
+    "FAQ": {
+      "Generalidades": [
+        {
+          "question": "¿Qué es el ID de Porsche?",
+          "answer": "Con el Porsche ID (dirección de correo electrónico personal), puede iniciar sesión en muchos servicios Porsche, páginas web, aplicaciones y determinados modelos de vehículo. Si ha adquirido un vehículo con el equipamiento Connect, antes de la entrega recibirá automáticamente una invitación. En función del país, también puede crear su propio Porsche ID."
+        },
+        {
+          "question": "No he recibido ningún correo electrónico con el enlace de registro para My Porsche.",
+          "answer": "Es posible que el correo electrónico con el enlace de registro haya ido a parar a la bandeja de correo electrónico no deseado. Compruebe la carpeta de correo no deseado de su buzón de correo electrónico. Si no ha recibido el correo electrónico de registro, diríjase a su Porsche Partner."
+        },
+        {
+          "question": "¿Expiran los servicios contratados al vender el vehículo?",
+          "answer": "Los servicios Porsche Connect se adquieren para un vehículo determinado. Al venderse un vehículo, los servicios contratados se mantienen y el nuevo titular del vehículo los puede utilizar durante el tiempo restante. No es posible trasladar los servicios contratados a otros vehículos."
+        },
+        {
+          "question": "¿Cómo puedo pagar en el Porsche Connect Store?",
+          "answer": "En el Porsche Connect Store se puede comprar con tarjeta de crédito. Hay un resumen de todas las tarjetas de crédito aceptadas en su país al pie de cada página del Porsche Connect Store."
+        },
+        {
+          "question": "¿Dónde se encuentran las condiciones de contratación?",
+          "answer": "Encontrará las condiciones generales de venta y las condiciones de uso de los servicios Porsche Connect en el Porsche Connect Store. Le enviaremos las condiciones de contrato vigentes por correo electrónico después de cada pedido."
+        },
+        {
+          "question": "¿Por qué tengo que reconocer la Política de privacidad y aceptar el intercambio de datos para utilizar My Porsche?",
+          "answer": "Para poder utilizar algunos Servicios Porsche Connect es necesario registrar y procesar datos personales. Concedemos una gran importancia a que usted sepa exactamente y pueda decidir qué datos se utilizan con qué fin y de qué modo se recopilan y se procesan. Le informamos de ello en nuestra declaración de privacidad. Siempre se puede acceder a la versión actual de la declaración de privacidad en My Porsche. Para poder atenderle aún mejor en nuestra red de concesionarios, le rogamos que al registrarse nos dé también su consentimiento para que podamos intercambiar datos con el concesionario Porsche que usted elija. Puede revocar el uso de sus datos en cualquier momento enviando un mensaje por correo electrónico."
+        },
+        {
+          "question": "¿Cómo se solicitan los servicios Porsche Connect?",
+          "answer": "Para contratar los servicios Porsche Connect necesita una cuenta que puede abrir con su Porsche ID (dirección de correo electrónico personal). Algunos servicios se pueden solicitar de forma gratuita durante un determinado periodo de tiempo en el Porsche Connect Store. En el Porsche Connect Store puede solicitar también otros servicios de pago. Añada los servicios que desee a la cesta de la compra. A continuación, indique su dirección de facturación y los datos de pago, y compruebe el pedido. Si la dirección de facturación y los datos de pago ya están guardados en su perfil, puede ir directamente al resumen del pedido mediante la compra Express."
+        },
+        {
+          "question": "¿Cómo se calculan los precios de carga con el Porsche Charging Service?",
+          "answer": "Los precios de la carga dependen de la cantidad de energía emitida, el tiempo de parada y la potencia de carga del pedestal de carga correspondiente. Puede consultar una vista general de los precios por país y potencia de carga en: Charging Service."
+        },
+        {
+          "question": "¿Cómo puedo cambiar el idioma que se muestra en la aplicación My Porsche?",
+          "answer": "El idioma que se muestra en la aplicación My Porsche depende del idioma que haya seleccionado en los ajustes de su smartphone. Para cambiar la configuración del idioma en la aplicación My Porsche, adapte el idioma seleccionado en los ajustes de su smartphone."
+        },
+        {
+          "question": "¿Por qué se ha renovado mi servicio Connect automáticamente?",
+          "answer": "Si ha aceptado la renovación automática de la suscripción al comprar un servicio en Connect Store, el contrato se renovará automáticamente una vez expirado el plazo anterior. Tiene la posibilidad de desactivar la función de renovación automática a través del submenú 'Mis productos' del portal My Porsche."
+        },
+        {
+          "question": "¿Cómo puedo cancelar un servicio Connect?",
+          "answer": "Los servicios vinculados a un plazo se pueden cancelar en cualquier momento, siempre que se respete el correspondiente plazo de preaviso. Para ello, proceda de la siguiente manera:\n\n1) Inicie sesión en Porsche Connect Store y seleccione 'Mis productos'.\n2) Seleccione el contrato que desea rescindir y anote su solicitud de rescisión.\n\nSi desea recibir ayuda de un asesor para la cancelación de los servicios, póngase en contacto con el Centro de Interacción con el Cliente de Porsche."
+        },
+        {
+          "question": "¿Por qué me siguen cobrando por los servicios Connect, si ya no poseo el vehículo correspondiente?",
+          "answer": "Si ha aceptado la renovación automática de la suscripción al comprar un servicio en Connect Store, el contrato correspondiente se renovará automáticamente una vez expirado el plazo contractual anterior. Para evitar la renovación automática del contrato, por ejemplo, tras la venta del vehículo, cancele los contratos de Connect correspondientes durante el plazo de preaviso. Puede hacerlo en cualquier momento de la siguiente manera:\n\n1) Inicie sesión en Porsche Connect Store y seleccione 'Mis productos'.\n2) Haga clic en el contrato que desee rescindir y anote directamente su solicitud de rescisión.\n\nSi desea recibir ayuda de un asesor para la cancelación de los servicios, póngase en contacto con el Centro de Interacción con el Cliente de Porsche."
+        },
+        {
+          "question": "¿Cómo puedo añadir mi vehículo en el portal My Porsche?",
+          "answer": "Para añadir su vehículo a su perfil de My Porsche en el portal My Porsche, haga lo siguiente:\n\n1) Inicie sesión en el portal My Porsche con su ID y contraseña de Porsche.\n2) Seleccione el submenú 'Añadir vehículo'.\n3) Siga las instrucciones para la vinculación del vehículo y tenga a mano su número de identificación del vehículo (es decir, su VIN). Puede encontrarlo en la ficha técnica del vehículo o en el permiso de circulación.\n\nSu concesionario Porsche también puede ayudarle en la vinculación del vehículo a través del envío de una invitación a My Porsche."
+        },
+        {
+          "question": "¿Cómo puedo asignar el ID de My Porsche a otro país (p. ej., después de un traslado)?",
+          "answer": "El país indicado en su ID de Porsche es idéntico al del país en el que se encuentra el concesionario Porsche que le ha invitado inicialmente a My Porsche. Para poder cambiar la asignación del país, por ejemplo, tras un traslado, solicite a su nuevo concesionario Porsche local que le vuelvan a invitar a My Porsche. También puede ponerse en contacto con el Centro de Interacción con el Cliente de Porsche."
+        },
+        {
+          "question": "¿Cómo recibiré el código de confirmación que se solicita durante el registro en My Porsche?",
+          "answer": "Recibirá una invitación por correo electrónico a My Porsche unos 14 días antes de la entrega del vehículo. Al hacer clic en el enlace de activación, accederá al portal My Porsche. En el primer paso, debe solicitar un código de confirmación que se le enviará por SMS al número de teléfono móvil conocido por su concesionario Porsche. A continuación, puede introducir el código de confirmación en My Porsche y establecer su contraseña y un código de seguridad. IMPORTANTE: Asegúrese de que el número de teléfono móvil indicado en el concesionario Porsche sea actual o correcto. Solo así podrá recibir el SMS de confirmación."
+        },
+        {
+          "question": "¿Dónde puedo encontrar más información o instrucciones sobre cómo utilizar la aplicación My Porsche?",
+          "answer": "Un vídeo informativo o de instrucciones sobre cómo utilizar la aplicación My Porsche está disponible en el siguiente enlace."
+        },
+        {
+          "question": "¿Qué método de pago puedo utilizar al comprar servicios de Porsche Connect?",
+          "answer": "Actualmente, en Porsche Connect Store, los clientes pueden comprar productos digitales mediante tarjeta de crédito (VISA, Mastercard y American Express). Desde de la pestaña 'Pago y pedidos' puede guardar o actualizar la información de su tarjeta de crédito para la compra o renovación de los servicios Porsche Connect. Como forma de pago, debe registrar al menos una tarjeta de crédito en este momento. Para compras adicionales se utilizará la última tarjeta de crédito registrada. Sin embargo, se puede cambiar y sustituir por otra tarjeta de crédito antes de finalizar la compra."
+        },
+        {
+          "question": "¿Cómo puedo vincular mi ID de Porsche con mi vehículo y realizar la conexión?",
+          "answer": "La vinculación del ID de Porsche con el vehículo se realiza en el Taycan, así como en el 911, Cayenne y Panamera a partir del año modelo 2022 al introducir el ID de Porsche en el vehículo en el sistema Porsche Communication Management (abreviado 'PCM') y en el 718, Macan a partir del año modelo 2018, Cayenne y Panamera a partir del año modelo 2017 hasta 2021 y 992 a partir del año modelo 2019 hasta 2021 al introducir el código de conexión en el vehículo en el sistema Porsche Communication Management (abreviado 'PCM').\n\n**Vinculación en modelos a partir de 2022**: Introduzca el ID de Porsche en el PCM en ▶ Ajustes ▶ Cuentas ▶ Crear cuentas.\n\n**Vinculación en modelos anteriores**: Introduzca el código de conexión en el PCM en ▶ APPS ▶ OPT ▶ Iniciar sesión en Porsche Connect."
+        },
+        {
+          "question": "¿Cómo puedo crear o actualizar mis datos personales (nombre, dirección, número de teléfono, correo electrónico, detalles de pago) en el portal My Porsche?",
+          "answer": "En la parte superior de la página de inicio de Porsche Connect Store encontrará el menú para iniciar sesión en su cuenta My Porsche. Una vez que haya iniciado sesión correctamente, podrá realizar diferentes ajustes en su perfil a través del submenú 'Ajustes de perfil'. A través de la pestaña 'Datos personales' puede editar la información específica del ID de Porsche. Además, la contraseña y el código de seguridad pueden editarse en 'Iniciar sesión y seguridad'."
+        },
+        {
+          "question": "¿Cómo puedo crear o actualizar mis datos personales en la aplicación My Porsche?",
+          "answer": "Para cambiar sus datos personales, abra la aplicación My Porsche e inicie sesión con su ID de Porsche. A continuación, en la sección 'Cuenta' encontrará la opción 'Editar datos del perfil' y podrá cambiar ahí los datos que desee."
+        },
+        {
+          "question": "¿Dónde puedo ver mis facturas de carga?",
+          "answer": "Puede ver sus facturas en el portal My Porsche y en la aplicación My Porsche. A final de mes, se le enviarán sus facturas de carga sobre sus transacciones mensuales por correo electrónico y una notificación automática como enlace de descarga en sus mensajes en el portal My Porsche. En la aplicación My Porsche, encontrará las facturas en Cuenta > Servicio de carga > Transacciones o en Cuenta > Mensajes, disponibles como descarga en PDF."
+        },
+        {
+          "question": "¿Dónde puedo ver el historial de carga de mi Taycan?",
+          "answer": "El historial de carga de su Taycan contiene todas las cargas públicas de su actual contrato de carga. Puede verlas en la aplicación My Porsche y también en el portal My Porsche. En el portal, vaya a Mis vehículos > [Seleccionar modelo] > Mis servicios Connect > Servicio de Carga Porsche. En la aplicación, el historial está disponible en Cuenta > Servicio de carga > Transacciones > Selección de modelo o todos."
+        },
+        {
+          "question": "¿Qué es un código de conexión?",
+          "answer": "Para utilizar algunos servicios Porsche Connect y los ajustes personales de My Porsche es necesario vincular el ID de Porsche con el vehículo. Para ello, se debe introducir el llamado código de conexión en el vehículo en el sistema Porsche Communication Management (PCM). Este código es relevante para modelos como el 718, Macan a partir del año modelo 2018, Cayenne y Panamera entre 2017 y 2021, y 992 entre 2019 y 2021."
+        },
+        {
+          "question": "¿Qué es el código de seguridad?",
+          "answer": "El código de seguridad es necesario para iniciar sesión correctamente en el vehículo con el ID de Porsche, así como para utilizar algunos servicios remotos. Dependiendo del país, este código es necesario para modelos como el Taycan, 911, Cayenne y Panamera a partir del año modelo 2022."
+        },
+        {
+          "question": "¿Cómo puedo crear, cambiar o restablecer el código de seguridad?",
+          "answer": "Para crear, cambiar o restablecer el código de seguridad, visite My Porsche e inicie sesión con sus datos de acceso personales. El código de seguridad se puede crear, cambiar o restablecer en los ajustes de usuario."
+        }
+      ],
+      "Contactos_por_pais": {
+        "Albania": "smartmobility@al.porsche.com",
+        "Andorra": "smartmobility@ad.porsche.com",
+        "Australia": "connect@porsche.com.au",
+        "Austria": "smartmobility@at.porsche.com",
+        "Bélgica": "smartmobility@be.porsche.com",
+        "Bosnia y Herzegovina": "smartmobility@ba.porsche.com",
+        "Bulgaria": "smartmobility@bg.porsche.com",
+        "Canadá": "connect@porsche.ca",
+        "China": "connect@cn.porsche.com",
+        "Croacia": "smartmobility@hr.porsche.com",
+        "Chipre": "smartmobility@cy.porsche.com",
+        "República Checa": "smartmobility@cz.porsche.com",
+        "Dinamarca": "smartmobility@dk.porsche.com",
+        "Estonia": "smartmobility@ee.porsche.com",
+        "Finlandia": "smartmobility@fi.porsche.com",
+        "Francia": "smartmobility@fr.porsche.com",
+        "Alemania": "smartmobility@de.porsche.com",
+        "Gibraltar": "smartmobility@porsche.co.uk",
+        "Reino Unido": "smartmobility@uk.porsche.co.uk",
+        "Grecia": "smartmobility@gr.porsche.com",
+        "Hong Kong": "connect@cn.porsche.com",
+        "Hungría": "smartmobility@hu.porsche.com",
+        "Islandia": "smartmobility@is.porsche.com",
+        "Irlanda": "smartmobility@porsche.co.uk",
+        "Italia": "smartmobility@it.porsche.com",
+        "Japón": "connect@jp.porsche.com",
+        "Letonia": "smartmobility@lv.porsche.com",
+        "Liechtenstein": "smartmobility@li.porsche.com",
+        "Lituania": "smartmobility@lt.porsche.com",
+        "Luxemburgo": "smartmobility@lu.porsche.com",
+        "Malta": "smartmobility@mt.porsche.com",
+        "Mónaco": "smartmobility@mc.porsche.com",
+        "Países Bajos": "smartmobility@nl.porsche.com",
+        "Noruega": "smartmobility@no.porsche.com",
+        "Polonia": "smartmobility@pl.porsche.com",
+        "Portugal": "smartmobility@pt.porsche.com",
+        "Rumanía": "smartmobility@ro.porsche.com",
+        "Rusia": "connect@porsche.ru",
+        "Eslovaquia": "smartmobility@sk.porsche.com",
+        "Eslovenia": "smartmobility@si.porsche.com",
+        "España": "smartmobility@es.porsche.com",
+        "Suecia": "smartmobility@se.porsche.com",
+        "Suiza": "smartmobility@ch.porsche.com",
+        "Taiwán": "connect@porsche.tw",
+        "EE. UU.": "connect@porsche.us",
+        "No_incluido": "Contacte con su Porsche Partner. Tenga en cuenta que el uso de algunas funciones de Porsche Connect puede verse reducido y algunos servicios ya no estarán disponibles."
+      },
+      "Disfrute de los servicios": [
+          {
+            "question": "¿Cuándo está disponible en el vehículo un servicio solicitado?",
+            "answer": "Puede consultar los servicios solicitados inmediatamente después de volver a arrancar su vehículo en el PCM si su vehículo está conectado a Internet."
+          },
+          {
+            "question": "Deseo utilizar al mismo tiempo la conexión de datos y las llamadas de teléfono.",
+            "answer": "En función del modelo, existen diversas posibilidades:\n- En su Taycan, la conexión de datos se establece mediante la tarjeta SIM integrada y puede realizar llamadas de teléfono con un móvil conectado por Bluetooth. No hay ranura para tarjeta SIM.\n- En otros modelos:\n  - **Con tarjeta SIM integrada**: permite llamadas por Bluetooth al mismo tiempo.\n  - **Con tarjeta SIM insertada**: permite llamadas por Bluetooth y, en algunos casos, llamadas con la propia SIM.\n  - **Con hotspot Wi-Fi de móvil**: usa la conexión de datos del móvil y permite llamadas por Bluetooth."
+          },
+          {
+            "question": "¿Funcionan los servicios Porsche Connect en el extranjero?",
+            "answer": "La disponibilidad de los servicios Porsche Connect puede variar en función del país y los socios de Porsche en la región. Para usar los servicios en otro país, active el roaming en el PCM:\n\n**Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Roaming.\n\n**Panamera (2ª generación)**: Administrador de dispositivos > Opciones > Conexiones de datos > Roaming.\n\n**Modelos recientes (Cayenne 3ª generación, Macan, 911, Panamera)**: SET > Administrador de dispositivos > Opciones > Datos móviles > Roaming.\n\n**Taycan**: Roaming activado automáticamente."
+          },
+          {
+            "question": "Deseo desactivar la conexión de datos en el PCM y utilizar solo las funciones sin conexión.",
+            "answer": "Para desactivar la conexión de datos en el PCM:\n\n- **Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Conexión de datos > DESACTIVADO.\n- **Panamera (2ª generación)**: Administrador de dispositivos > Opciones > Conexiones de datos > DESACTIVADO.\n- **Modelos recientes (Cayenne, Macan, 911, Panamera)**: SET > Administrador de dispositivos > Opciones > Datos móviles > DESACTIVADO.\n- **Taycan**: Ajustes de privacidad y Porsche Connect > Modo privado > Activar modo privado para todos los servicios."
+          },
+          {
+            "question": "¿Hay que introducir el PIN de la tarjeta SIM cada vez que se arranca?",
+            "answer": "Puede guardar su PIN en el PCM:\n\n**Modelos recientes (Panamera, Cayenne, Macan, 911)**: Administrador de dispositivos > Opciones > Teléfono > Tarjeta SIM > Recordar PIN.\n\n**Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Teléfono > Tarjeta SIM > Recordar PIN.\n\n**Taycan**: No es necesario introducir el PIN de la tarjeta SIM."
+          },
+          {
+            "question": "¿Por qué no puedo utilizar Apple® CarPlay al mismo tiempo que la función Bluetooth del teléfono móvil?",
+            "answer": "Si se utiliza Apple® CarPlay, las conexiones Bluetooth activas (para telefonía, reproducción de medios o noticias) se desconectan automáticamente."
+          },
+          {
+              "question": "¿Cuándo está disponible en el vehículo un servicio solicitado?",
+              "answer": "Puede consultar los servicios solicitados inmediatamente después de volver a arrancar su vehículo en el PCM si su vehículo está conectado a Internet."
+            },
+            {
+              "question": "Deseo utilizar al mismo tiempo la conexión de datos y las llamadas de teléfono.",
+              "answer": "En función del modelo, existen diversas posibilidades:\n- En su Taycan, la conexión de datos se establece mediante la tarjeta SIM integrada y puede realizar llamadas de teléfono con un móvil conectado por Bluetooth. No hay ranura para tarjeta SIM.\n- En otros modelos:\n  - **Con tarjeta SIM integrada**: permite llamadas por Bluetooth al mismo tiempo.\n  - **Con tarjeta SIM insertada**: permite llamadas por Bluetooth y, en algunos casos, llamadas con la propia SIM.\n  - **Con hotspot Wi-Fi de móvil**: usa la conexión de datos del móvil y permite llamadas por Bluetooth."
+            },
+            {
+              "question": "¿Funcionan los servicios Porsche Connect en el extranjero?",
+              "answer": "La disponibilidad de los servicios Porsche Connect puede variar en función del país y los socios de Porsche en la región. Para usar los servicios en otro país, active el roaming en el PCM:\n\n**Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Roaming.\n\n**Panamera (2ª generación)**: Administrador de dispositivos > Opciones > Conexiones de datos > Roaming.\n\n**Modelos recientes (Cayenne 3ª generación, Macan, 911, Panamera)**: SET > Administrador de dispositivos > Opciones > Datos móviles > Roaming.\n\n**Taycan**: Roaming activado automáticamente."
+            },
+            {
+              "question": "Deseo desactivar la conexión de datos en el PCM y utilizar solo las funciones sin conexión.",
+              "answer": "Para desactivar la conexión de datos en el PCM:\n\n- **Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Conexión de datos > DESACTIVADO.\n- **Panamera (2ª generación)**: Administrador de dispositivos > Opciones > Conexiones de datos > DESACTIVADO.\n- **Modelos recientes (Cayenne, Macan, 911, Panamera)**: SET > Administrador de dispositivos > Opciones > Datos móviles > DESACTIVADO.\n- **Taycan**: Ajustes de privacidad y Porsche Connect > Modo privado > Activar modo privado para todos los servicios."
+            },
+            {
+              "question": "¿Hay que introducir el PIN de la tarjeta SIM cada vez que se arranca?",
+              "answer": "Puede guardar su PIN en el PCM:\n\n**Modelos recientes (Panamera, Cayenne, Macan, 911)**: Administrador de dispositivos > Opciones > Teléfono > Tarjeta SIM > Recordar PIN.\n\n**Modelos antiguos (911, 718, Macan, Cayenne)**: PHONE > OPT > SET PHONE > Teléfono > Tarjeta SIM > Recordar PIN.\n\n**Taycan**: No es necesario introducir el PIN de la tarjeta SIM."
+            },
+            {
+              "question": "¿Por qué no puedo utilizar Apple® CarPlay al mismo tiempo que la función Bluetooth del teléfono móvil?",
+              "answer": "Si se utiliza Apple® CarPlay, las conexiones Bluetooth activas (para telefonía, reproducción de medios o noticias) se desconectan automáticamente."
+            },
+            {
+              "question": "Con la tarjeta SIM integrada: ¿tengo que pagar algún coste por el uso de los servicios en el extranjero (roaming)?",
+              "answer": "Puede utilizar los servicios Porsche Connect en más de 30 países. Para utilizar la tarjeta SIM integrada disponible en algunos países es preciso abonar una tarifa de roaming. La disponibilidad de algunos servicios Connect, que depende del país, se puede consultar en el Connect Store."
+            },
+            {
+              "question": "¿Cuándo llega la factura de los servicios contratados de Functions on Demand (FoD)?",
+              "answer": "La facturación de las Functions on Demand se produce en cuanto se activa la función en el vehículo. Consulte el manual para más detalles sobre la activación en el vehículo."
+            },
+            {
+              "question": "¿Tengo que cancelar la Function on Demand si vendo el vehículo?",
+              "answer": "Las Functions on Demand no están disponibles en todos los países y no se pueden cancelar al vender el vehículo. Si ha contratado una suscripción mensual, debe cancelarla en Connect Store antes de transferir el vehículo."
+            },
+            {
+              "question": "¿Puedo cancelar el pedido de Functions on Demand (FoD)?",
+              "answer": "Si ha contratado una Function on Demand de forma indefinida, puede revocarla durante los primeros 14 días. Para suscripciones mensuales, puede cancelar con un preaviso de un día antes del fin de mes."
+            },
+            {
+              "question": "¿Cómo puedo cambiar el idioma que se muestra en la aplicación My Porsche?",
+              "answer": "El idioma de la aplicación My Porsche depende del idioma configurado en su smartphone. Cambie el idioma en los ajustes de su smartphone para actualizar la aplicación."
+            },
+            {
+              "question": "¿Qué servicios Connect están disponibles para mi vehículo?",
+              "answer": "En Porsche Connect Store encontrará un resumen de todos los servicios Connect disponibles para su vehículo tras iniciar sesión con su ID de Porsche."
+            },
+            {
+              "question": "¿Cómo puedo crear o actualizar mis datos personales en el portal My Porsche?",
+              "answer": "Inicie sesión en su cuenta My Porsche desde el Porsche Connect Store. En el submenú “Ajustes de perfil” podrá editar su información personal y de seguridad, como nombre, dirección de correo y detalles de pago."
+            }
+      ],
+      "Gestión de los servicios": [
+          {
+            "question": "¿Qué es un usuario adicional?",
+            "answer": "Como usuario principal de un vehículo con Porsche Connect, puede habilitar a otros usuarios, como miembros de su familia, para usar su vehículo y sus servicios Porsche Connect como usuarios secundarios. Cada usuario secundario recibirá un Porsche ID propio y podrá configurar los servicios según sus preferencias. La contratación de servicios queda reservada al propietario del vehículo."
+          },
+          {
+            "question": "¿Se elimina mi cuenta de Porsche ID automáticamente después de vender el vehículo?",
+            "answer": "No. Su cuenta Porsche ID permanece activa y puede añadir nuevos vehículos en cualquier momento. En caso de venta, puede eliminar el vehículo de su perfil de usuario."
+          },
+          {
+            "question": "Deseo borrar mi cuenta de Porsche ID.",
+            "answer": "Puede eliminar su cuenta Porsche ID en My Porsche, en el menú > Inicio de sesión y seguridad.\n\nAl borrar su cuenta de Porsche ID, perderá el acceso en línea a sus servicios y vehículos, y todas las configuraciones de servicios se restablecerán. Las prestaciones de servicios también se suspenderán. Sus datos de cliente facilitados a Porsche se conservarán.\n\nPara eliminar también sus datos de cliente, contacte con su Centro Porsche Oficial."
+          },
+          {
+            "question": "No puedo concertar ninguna cita de servicio en mi Porsche Partner a través de My Porsche.",
+            "answer": "Por ahora, no en todos los países se pueden concertar citas de mantenimiento con el Porsche Partner mediante My Porsche. Contacte con su Porsche Partner por teléfono o por correo electrónico."
+          }
+      ],
+      "Subsanación de errores": [
+          {
+            "question": "No encuentro los servicios en el PCM.",
+            "answer": "Compruebe en primer lugar el plazo de vigencia de los servicios. Puede consultar el tiempo restante en My Porsche, en 'Servicios', así como en Porsche Connect Store, en cuanto haya iniciado sesión. La oferta de servicios se mejora y optimiza constantemente. Por ello, es posible que la disponibilidad para su vehículo o país cambie."
+          },
+          {
+            "question": "Se ha producido un error durante la activación de una Function on Demand disponible en función del país o durante la realización de una actualización de software online.",
+            "answer": "El fallo de una activación o de una instalación puede tener diversas causas. Asegúrese de que no hay ninguna conexión de carga activa. Desconecte el vehículo con el botón de encendido, salga y ciérrelo. Espere unos 10 minutos. A continuación, vuelva a encender el vehículo. Normalmente, la activación se lleva a cabo después de este proceso y la actualización del software online se muestra de nuevo como disponible en el PCM, en la opción 'Actualizaciones'.\n\nSi aparecen otros mensajes de error, siga las instrucciones del PCM o del panel de instrumentos y póngase en contacto con su Centro Porsche Oficial."
+          }
+      ],
+      "Cargando tu Porsche": [
+          {
+            "question": "¿Dónde puedo cargar mi Porsche?",
+            "answer": "Puedes cargar tu Porsche en diversos lugares, incluidos puntos de carga públicos, estaciones de carga en casa y cargadores rápidos. Utiliza la red de carga pública o instala un cargador doméstico en tu casa para mayor comodidad."
+          },
+          {
+            "question": "¿En qué tomas de corriente puedo cargar mi Porsche?",
+            "answer": "Tu Porsche puede cargarse en tomas de corriente estándar de 230 V para carga lenta o en cargadores de corriente alterna (AC) y continua (DC) para carga más rápida. El tipo de conector dependerá de la infraestructura de carga y del modelo específico de tu vehículo."
+          },
+          {
+            "question": "¿Pueden variar los tiempos de carga indicados?",
+            "answer": "Sí. Numerosos factores influyen en el tiempo de carga. Entre ellos, los siguientes:\n\n- El cable de conexión de la infraestructura energética\n- El preacondicionamiento del habitáculo\n- El estado de carga y la temperatura de la batería de alta tensión\n- Los ajustes del cargador o del gestor de energía\n\nAdemás, la instalación doméstica específica para cada cliente es un factor importante a la hora de cargar en casa.\n\nPara la carga con AC (corriente alterna), la potencia del cargador de a bordo es decisiva. Por tanto, los tiempos de carga pueden variar significativamente en comparación con los valores que se indican."
+          },
+          {
+            "question": "¿Cómo puedo optimizar los tiempos de carga?",
+            "answer": "El Porsche Charging Planner puede ayudarte a predecir los tiempos de carga y optimizar el proceso. Por ejemplo, con el preacondicionamiento de la batería antes del proceso de carga, puedes mejorar el rendimiento y reducir el tiempo de carga necesario."
+          }
+        ],
+        "Carga en casa": [
+          {
+            "question": "¿Qué equipo de carga ofrece Porsche para cargar mi vehículo en casa y dónde puedo adquirirlo?",
+            "answer": "Porsche ofrece diferentes equipos de carga como el Porsche Mobile Charger y Porsche Mobile Charger Connect como equipamiento opcional. También están disponibles opciones de fijación, como la estación de carga para la pared (Charging Dock) y los pedestales de carga compactos (Porsche Compact Charging Pedestal). Puedes adquirirlos a través de los canales de venta establecidos, como tu Centro Oficial Porsche."
+          },
+          {
+            "question": "¿Qué diferencia hay entre Porsche Mobile Charger Connect y Porsche Mobile Charger?",
+            "answer": "La principal diferencia es que el Porsche Mobile Charger Connect permite la conectividad con una red Wi-Fi, lo que permite gestionar y controlar el proceso de carga de manera remota a través de la aplicación Porsche Connect. Además, el Mobile Charger Connect ofrece más opciones de personalización y control a distancia en comparación con el Porsche Mobile Charger estándar, que solo se utiliza para cargar el vehículo de forma directa."
+          },
+          {
+            "question": "Me gustaría cargar mi Porsche en casa. ¿Cómo podría averiguar si es posible?",
+            "answer": "Para saber si es posible cargar tu Porsche en casa, es necesario verificar la infraestructura eléctrica de tu hogar. Asegúrate de tener una toma de corriente adecuada o la posibilidad de instalar un cargador compatible, ya sea estándar o más rápido. Consulta con un electricista cualificado o con tu Centro Oficial Porsche para obtener más detalles sobre los requisitos de instalación y las opciones disponibles."
+          },
+          {
+            "question": "¿Hay alguna condición marco que tenga que cumplir para la instalación de un equipo doméstico de carga?",
+            "answer": "Sí, para la instalación de un equipo doméstico de carga, es importante cumplir con ciertos requisitos técnicos y de seguridad, como tener una toma de corriente adecuada o una instalación eléctrica que soporte la carga del vehículo. Es recomendable contactar con un electricista certificado o con tu Centro Oficial Porsche para evaluar la instalación y asegurarte de que se cumplen las normativas locales."
+          },
+          {
+            "question": "¿Puedo conectar el equipo de carga del Porsche a otros sistemas de administración de energía?",
+            "answer": "Sí, el Porsche Mobile Charger Connect es compatible con varios sistemas de gestión de energía domésticos, como aquellos que incluyen paneles solares u otros sistemas de almacenamiento de energía. Esto permite optimizar el uso de la energía, reduciendo el consumo de la red eléctrica externa. Consulta con un experto en energía o tu Centro Oficial Porsche para obtener más detalles sobre la integración de estos sistemas."
+          },
+          {
+            "question": "¿Qué opciones existen para establecer el límite de corriente?",
+            "answer": "El Porsche Mobile Charger y el Porsche Mobile Charger Connect permiten establecer un límite de corriente para controlar la velocidad de carga y ajustarse a las capacidades de la red eléctrica de tu hogar. Puedes ajustar este límite a través de la aplicación Porsche Connect o mediante el propio dispositivo de carga, dependiendo del modelo y la configuración que elijas."
+          },
+          {
+            "question": "¿Dónde puedo encontrar mis datos de acceso a Mobile Charger Connect si he perdido la carta con los datos de acceso?",
+            "answer": "Si has perdido la carta con los datos de acceso a Porsche Mobile Charger Connect, puedes ponerte en contacto con el servicio de atención al cliente de Porsche o con tu Centro Oficial Porsche para obtener una nueva carta o recuperar tus datos de acceso. Asegúrate de tener la información del vehículo y de tu cuenta Porsche ID a mano para facilitar el proceso."
+          }
+        ],
+        "Carga en carretera": [
+          {
+            "question": "¿Qué ventajas me ofrece el Porsche Charging Service al cargar en puntos de carga públicos?",
+            "answer": "El Porsche Charging Service ofrece acceso a una red extensa de puntos de carga públicos, con tarifas competitivas y la comodidad de realizar pagos de manera sencilla a través de la app Porsche Connect o directamente desde el vehículo. Además, el servicio ofrece información en tiempo real sobre la disponibilidad de cargadores, lo que facilita la planificación de los trayectos. También puedes beneficiarte de condiciones especiales o tarifas preferentes con ciertos proveedores de puntos de carga."
+          },
+          {
+            "question": "¿Cómo puedo utilizar los puntos de carga públicos?",
+            "answer": "Para utilizar los puntos de carga públicos, basta con acercarte a uno de los cargadores compatibles, conectar tu vehículo y proceder al inicio de la carga. El proceso de pago puede realizarse mediante la app Porsche Connect, a través de una tarjeta de carga asociada o utilizando una tarjeta de crédito, dependiendo del proveedor del punto de carga. Algunos puntos de carga también permiten iniciar la carga mediante el vehículo, si es compatible con el sistema de pago del cargador."
+          },
+          {
+            "question": "¿Cuál es la forma más fácil de encontrar el punto de carga más cercano?",
+            "answer": "La forma más fácil de encontrar un punto de carga cercano es utilizar la función integrada en el sistema de navegación de tu Porsche, que te muestra la ubicación de los cargadores disponibles en tu ruta o cerca de tu ubicación actual. También puedes utilizar la app Porsche Connect para consultar los puntos de carga cercanos, su disponibilidad en tiempo real y las tarifas de carga asociadas."
+          },
+          {
+            "question": "¿Cómo puedo planificar un recorrido o viaje?",
+            "answer": "Puedes planificar tu recorrido o viaje utilizando la función de planificación de rutas del sistema de navegación Porsche o la app Porsche Connect. La función de planificación de viajes te muestra no solo las rutas más rápidas, sino también los puntos de carga disponibles a lo largo de tu trayecto, lo que te ayuda a optimizar el tiempo de carga y el consumo de batería durante el viaje. El Porsche Charging Planner también proporciona sugerencias para optimizar el proceso de carga y garantizar una experiencia de viaje más fluida."
+          },
+          {
+            "question": "¿Puede un transeúnte tirar del conector mientras estoy cargando en un punto de carga público?",
+            "answer": "No, en la mayoría de los sistemas de carga, el conector está bloqueado de manera segura una vez que el vehículo comienza a cargar. Solo el propietario del vehículo o el operador del punto de carga puede liberar el conector al finalizar la carga. Esto garantiza que nadie pueda desconectar el cargador sin autorización. Sin embargo, es importante asegurarse de que el cargador esté correctamente conectado antes de dejar el vehículo, para evitar cualquier interrupción inesperada."
+          }
+        ],
+        "Vehículo": [
+          {
+            "question": "¿Cómo puedo asegurarme de que mi Porsche no se descargue completamente?",
+            "answer": "Para evitar que la batería de tu Porsche se descargue completamente, es recomendable monitorear el nivel de carga a través del sistema de navegación o la app Porsche Connect. Si el nivel de carga alcanza un nivel bajo, planifica la carga en cuanto sea posible. Los vehículos eléctricos están diseñados para proteger la batería y evitar que se descargue completamente, pero siempre es aconsejable mantener una carga mínima para asegurar el funcionamiento óptimo de la batería."
+          },
+          {
+            "question": "¿Tengo que cargar mi Porsche siempre por completo?",
+            "answer": "No es necesario cargar tu Porsche completamente cada vez. De hecho, se recomienda cargar la batería entre el 20% y el 80% para maximizar su vida útil. Solo en viajes largos o cuando necesites una autonomía completa, deberías cargarla al 100%. Mantener cargas frecuentes sin llegar al 100% ayuda a evitar el desgaste acelerado de la batería."
+          },
+          {
+            "question": "¿De qué depende la autonomía de mi Porsche?",
+            "answer": "La autonomía de tu Porsche depende de varios factores, como el estilo de conducción, las condiciones de la carretera, la velocidad, el uso de sistemas auxiliares como la climatización, y la temperatura ambiente. Además, el estado de la batería y la configuración del vehículo también influyen en la autonomía. La app Porsche Connect y el sistema de navegación de tu vehículo te proporcionarán estimaciones precisas de autonomía en función de las condiciones actuales."
+          },
+          {
+            "question": "¿Qué tengo que tener en cuenta, en especial, cuando hace frío?",
+            "answer": "Cuando las temperaturas son frías, la autonomía de la batería puede verse reducida debido a la menor eficiencia de la química interna de la batería. Para mitigar este efecto, es recomendable preacondicionar la batería antes de comenzar el viaje, si es posible, utilizando la función de climatización del vehículo mientras está enchufado. También es importante tener en cuenta que el tiempo de carga puede aumentar en temperaturas frías, y la calefacción del vehículo puede consumir más energía."
+          },
+          {
+            "question": "¿Qué debo tener en mente si viajo al extranjero?",
+            "answer": "Al viajar al extranjero, asegúrate de que tu vehículo esté preparado para las diferencias en las infraestructuras de carga y la disponibilidad de puntos de carga. Si viajas a un país con diferentes tipos de enchufes o adaptadores, lleva contigo los adaptadores necesarios. Además, verifica las tarifas de carga en el país de destino y, si usas servicios como el Porsche Charging Service, asegúrate de que la red de carga esté disponible en ese país."
+          },
+          {
+            "question": "¿Puedo usar adaptadores de viaje cuando vaya al extranjero?",
+            "answer": "Sí, puedes usar adaptadores de viaje cuando vayas al extranjero, siempre y cuando sean compatibles con los puntos de carga y la infraestructura eléctrica del país al que viajas. Sin embargo, es importante asegurarse de que el adaptador cumpla con los estándares de seguridad y que no interfiera con el proceso de carga del vehículo. Algunos países pueden requerir adaptadores específicos debido a diferencias en los sistemas de carga."
+          },
+          {
+            "question": "¿Qué sucede en caso de interrupción de la corriente?",
+            "answer": "En caso de interrupción de la corriente durante la carga, el vehículo normalmente detendrá el proceso de carga y mostrará un mensaje de error en el PCM o en la app Porsche Connect. Es recomendable esperar unos minutos y luego intentar reiniciar la carga. Si el problema persiste, verifica la fuente de alimentación o consulta con el proveedor del punto de carga. Si utilizas un cargador doméstico, revisa si hay problemas con tu instalación eléctrica."
+          },
+          {
+            "question": "Mi vehículo no carga o no lo hace con la potencia de carga que esperaba. ¿Qué puedo hacer?",
+            "answer": "Si tu vehículo no está cargando correctamente o con la potencia esperada, verifica lo siguiente: asegúrate de que el cable y el conector estén correctamente conectados, revisa el estado de la fuente de carga y verifica si hay interrupciones en la corriente o fallos en el punto de carga. También es posible que el vehículo esté gestionando la potencia de carga en función de las condiciones de la batería, la temperatura ambiente o la capacidad de la infraestructura de carga. Si el problema persiste, contacta con tu Centro Porsche Oficial para realizar una revisión."
+          },
+          {
+            "question": "¿Qué debo tener en cuenta al cargar vehículos de otras marcas?",
+            "answer": "Al cargar vehículos de otras marcas, asegúrate de que el cargador sea compatible con el estándar de conexión y los requisitos de carga de ese vehículo. En algunos casos, puede ser necesario utilizar adaptadores específicos, y la potencia de carga puede variar según el modelo del vehículo y el cargador utilizado. Asegúrate de verificar las especificaciones de cada vehículo y cargador antes de intentar cargarlo."
+          },
+          {
+              "question": "¿Dónde puedo cargar mi Porsche?",
+              "answer": "Puedes cargar tu Porsche en diferentes lugares, como en tu hogar utilizando un cargador doméstico, en estaciones de carga públicas o en puntos de carga de rápida carga. Porsche ofrece equipos como el Porsche Mobile Charger y el Porsche Mobile Charger Connect para carga en casa. Además, puedes utilizar la red de carga pública disponible a través de Porsche Charging Service."
+            },
+            {
+              "question": "¿Tengo que cargar mi Porsche siempre por completo?",
+              "answer": "No es necesario cargar tu Porsche completamente cada vez. Se recomienda mantener la carga entre el 20% y el 80% de la capacidad de la batería para asegurar su longevidad. Cargar por completo solo es necesario en viajes largos, cuando la autonomía adicional sea crucial."
+            },
+            {
+              "question": "¿De qué depende la autonomía de mi Porsche?",
+              "answer": "La autonomía de tu Porsche depende de varios factores, entre ellos: el estilo de conducción, las condiciones climáticas, el terreno, la carga de la batería y el uso de accesorios como la climatización o el sistema de entretenimiento. Además, la eficiencia del sistema de propulsión y el estado de la batería influyen en la autonomía."
+            },
+            {
+              "question": "¿Qué debo tener en mente si viajo al extranjero?",
+              "answer": "Si viajas al extranjero, debes tener en cuenta varios factores: asegurarte de que las estaciones de carga estén disponibles en el país al que vas, que sean compatibles con tu vehículo, y que tu vehículo tenga habilitado el roaming para los servicios conectados. También es importante considerar los adaptadores de carga necesarios según el país, y asegurarte de que la infraestructura de carga esté adaptada a los estándares locales."
+            }
+        ],
+        "Asistencia Técnica": [
+          {
+            "question": "¿Con quién puedo contactar en caso de que necesite asistencia técnica?",
+            "answer": "Si necesitas asistencia técnica, puedes ponerte en contacto con tu Centro Porsche Oficial. Ellos pueden proporcionarte soporte sobre problemas técnicos, diagnóstico de tu vehículo, o cualquier otro tipo de asistencia. Además, también puedes contactar a Porsche Connect Support si tienes problemas específicos relacionados con los servicios de conectividad y aplicaciones. Los detalles de contacto están disponibles a través de la app My Porsche y el portal web de Porsche."
+          }
+        ]
+    }
+  }
+  

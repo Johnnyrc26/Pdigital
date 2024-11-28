@@ -1,12 +1,9 @@
-import React from 'react';
-import NavBar from './UI/NavBar/index';
+import Home from './Pages/home/home';
 const App = (): JSX.Element => {
   return (
-    <div>
-      <h1>Welcome to the Porsche Design System</h1>
-      <NavBar />
-
-    </div>
+    <>
+      <Home />
+    </>
   );
 };
 

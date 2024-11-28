@@ -1,12 +1,13 @@
-
+import './styles.css';
+import { PIcon } from '@porsche-design-system/components-react';
 
 const index = () => {
   return (
     <div className="bottom-nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul className="bottom-nav-list">
+        <li><PIcon theme="auto" size="x-large" name="home" aria={{ 'aria-label': 'Home icon' }} /></li>
+        <li><PIcon theme="auto" size="x-large" name="car" aria={{ 'aria-label': 'Car icon' }} /></li>
+        <li><PIcon theme="auto" size="x-large" name="user" aria={{ 'aria-label': 'User icon' }} /></li>
       </ul>
     </div>
   );

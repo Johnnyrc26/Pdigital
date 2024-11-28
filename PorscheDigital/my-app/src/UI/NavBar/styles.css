@@ -1,0 +1,23 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0E1418; /* Color de fondo */
+  color: white; /* Color de texto */
+  padding: 2rem 0; /* Espaciado alrededor */
+  text-align: center; /* Centrado del contenido */
+  z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
+}
+
+
+.bottom-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}

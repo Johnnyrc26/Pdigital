@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 const ProfilePage = () => {
@@ -21,16 +20,8 @@ const ProfilePage = () => {
         <h2 className="text-3xl font-semibold mb-4">Welcome, {selectedUser.title}!</h2>
         <p className="text-lg text-gray-700 mb-4">We are glad to have you here.</p>
         <div className="bg-blue-100 p-4 rounded-md">
-          <h3 className="text-xl font-medium">Your Vehicle</h3>
+          {/* No toma la description que seria el modelo del coche */}
           <p className="text-lg text-gray-600">{selectedUser.description}</p>
-        </div>
-        <div className="mt-6 text-center">
-          <button
-            onClick={() => alert('Navigate to another section or perform an action')}
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg"
-          >
-            Go to Dashboard
-          </button>
         </div>
       </div>
     </div>

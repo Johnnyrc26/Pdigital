@@ -1,13 +1,14 @@
-import { PHeading } from "@porsche-design-system/components-react";
-import { PButton } from "@porsche-design-system/components-react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from '../src/Page/Home/home'; // Tu componente Demo
+import ProfilePage from '../src/Page/ProfilePage/ProfilePage'; // Tu componente ProfilePage
 
-const App = (): JSX.Element => {
-  return (
-    <div>
-      <h1>Welcome to the Porsche Design System</h1>
-
-    </div>
-  );
-};
+export const App = (): JSX.Element => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/ProfilePage" element={<ProfilePage />} />
+    </Routes>
+  </Router>
+);
 
 export default App;

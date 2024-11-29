@@ -1,5 +1,6 @@
 import { PHeading } from '@porsche-design-system/components-react';
 import RadiusCard from "../RadioCard/RadioCard";
+import { PCrest } from '@porsche-design-system/components-react';
 
 export const BackgroundHome = (): JSX.Element => (
   <div
@@ -9,7 +10,10 @@ export const BackgroundHome = (): JSX.Element => (
     }}
   >
     <div className="text-white p-6">
-      <PHeading>Welcome to Porsche Assitant</PHeading>
+      <div className='flex justify-center'>
+      <PCrest />
+      </div>
+      <PHeading className='text-center pt-6 '>Welcome to Porsche Assitant</PHeading>
       <RadiusCard />
     </div>
   </div>

@@ -30,7 +30,7 @@ const Demo = () => {
   const handleNext = () => {
     if (selected) {
       // Redirige a la página de destino
-      navigate("../ProfilePage/ProfilePage", { state: { selectedUser: selected } });
+      navigate("/ProfilePage", { state: { selectedUser: selected } });
     }
   };
 

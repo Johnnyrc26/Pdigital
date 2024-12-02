@@ -7,7 +7,7 @@ import {
   PButtonTile,
   PLinkTileModelSignature,
   PLink,
-  PModelSignature,
+  PWordmark,
   PHeading,
 } from "@porsche-design-system/components-react";
 import SearchDropdown from "../../UI/SearchDropdown/SearchDropdown";
@@ -37,9 +37,9 @@ export const ProfilePage = (): JSX.Element => {
 
   const carImage = carImages[carModel] || "/assets/default-car.jpg";
 
-  const handleModelClick = () => {
-    alert(`You clicked on ${carModel}!`);
-  };
+  // const handleModelClick = () => {
+  //   alert(`You clicked on ${carModel}!`);
+  // };
 
   return (
     <div className="bg-gray-900 bg-cover bg-center min-h-screen">
@@ -64,16 +64,12 @@ export const ProfilePage = (): JSX.Element => {
       <PDivider theme="auto" />
       {/* Mensaje dinámico */}
       <div className="text-white text-center pt-6">
-        <h2 className="text-2xl font-bold">Hello, {userName}! Enjoy your. </h2>
-        <PModelSignature
-          theme="auto"
-          model={carModel}
-          safeZone={true}
-          className="text-center m-4"
-        />
+        <h2 className="text-2xl font-bold">Hello, {userName}</h2>
+        <h2>Wellcome to</h2>
+        <PWordmark theme="auto" size="inherit" style={{ height: '20px' }} className="p-6"/>
       </div>
-      <PCarousel theme="auto" slidesPerPage={1} heading="Most popular" c >
-        <PButtonTile label="Care" description="Care" compact={true} align="top">
+      <PCarousel theme="auto" slidesPerPage={1} heading="Most popular" >
+        <PButtonTile label="Care" description="Care" compact={true} align="top" >
           <img
             src="public/assets/club-sport-story@2x.webp"
             alt="Some image description"

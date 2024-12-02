@@ -4,6 +4,7 @@ import { PorscheDesignSystemProvider } from '@porsche-design-system/components-r
 import './index.css';
 import { App } from './App.tsx';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <PorscheDesignSystemProvider>

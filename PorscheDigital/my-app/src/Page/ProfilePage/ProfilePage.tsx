@@ -1,16 +1,14 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import {
-  PCrest,
-  PIcon,
-  PDivider,
   PCarousel,
   PButtonTile,
-  PLinkTileModelSignature,
-  PLink,
+  PLinkTile,
   PWordmark,
   PHeading,
+  PModelSignature,
 } from "@porsche-design-system/components-react";
-import SearchDropdown from "../../UI/SearchDropdown/SearchDropdown";
+import TopBar from "../../UI/TopBar/TopBar";
+import IconNavigation from "../../UI/NavBar/NavBar";
 
 type LocationState = {
   selectedUser: {
@@ -23,6 +21,7 @@ type LocationState = {
 export const ProfilePage = (): JSX.Element => {
   const location = useLocation();
   const state = location.state as LocationState | undefined;
+  const navigate = useNavigate();
 
   const userName = state?.selectedUser?.title || "Guest";
   const carModel = state?.selectedUser?.modelSignature || "a Porsche";
@@ -42,34 +41,22 @@ export const ProfilePage = (): JSX.Element => {
   // };
 
   return (
-    <div className="bg-gray-900 bg-cover bg-center min-h-screen">
-      <div className="text-white p-6">
-        {/* Contenedor para los iconos */}
-        <div className="flex justify-between items-center">
-          {/* Icono de flecha (start) */}
-          <PIcon
-            theme="auto"
-            name="arrow-head-left"
-            size="x-large"
-            aria={{ "aria-label": "Arrow Head Left icon" }}
-          />
+    <div className="bg-gray-900 bg-cover bg-center min-h-screen pb-16">
+      <TopBar />
 
-          {/* Logo de PCrest (center) */}
-          <PCrest />
-
-          {/* Icono de lupa (end) */}
-          <SearchDropdown />
-        </div>
-      </div>
-      <PDivider theme="auto" />
       {/* Mensaje dinámico */}
       <div className="text-white text-center pt-6">
         <h2 className="text-2xl font-bold">Hello, {userName}</h2>
         <h2>Wellcome to</h2>
-        <PWordmark theme="auto" size="inherit" style={{ height: '20px' }} className="p-6"/>
+        <PWordmark
+          theme="auto"
+          size="inherit"
+          style={{ height: "20px" }}
+          className="p-6"
+        />
       </div>
-      <PCarousel theme="auto" slidesPerPage={1} heading="Most popular" >
-        <PButtonTile label="Care" description="Care" compact={true} align="top" >
+      <PCarousel theme="auto" slidesPerPage={1} heading="Most popular">
+        <PButtonTile label="Care" description="Care" compact={true} align="top">
           <img
             src="public/assets/club-sport-story@2x.webp"
             alt="Some image description"
@@ -107,20 +94,25 @@ export const ProfilePage = (): JSX.Element => {
         </PButtonTile>
       </PCarousel>
       <PHeading theme="auto" tag="h3" size="large" className="pl-6 pt-2">
-        More abour your car
+        More about your
       </PHeading>
-      <PLinkTileModelSignature
-        heading={`Explore the ${carModel}`}
-        model={carModel} // Aquí pasas el modelo dinámicamente
+      <div className="pl-6 pt-3">
+        <PModelSignature theme="auto" safeZone={false} model={carModel} />
+      </div>
+      <PLinkTile
+        onClick={() => {
+          navigate("/MyCarHistory", {
+            state: { selectedUser: state?.selectedUser },
+          });
+        }}
+        label="Some Label"
+        description="Some Description"
+        aspectRatio="1/1"
         className="p-6">
-        <img src={carImage} alt={`${carModel} image`} />
-        <PLink slot="primary" href="https://porsche.com/#primary">
-          Know more
-        </PLink>
-        <PLink slot="secondary" href="https://porsche.com/#secondary">
-          User Manual
-        </PLink>
-      </PLinkTileModelSignature>
+        <img src={carImage} alt="Some image description" />
+      </PLinkTile>
+
+      <IconNavigation />
     </div>
   );
 };

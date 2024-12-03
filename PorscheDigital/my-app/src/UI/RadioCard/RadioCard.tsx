@@ -20,6 +20,7 @@ const items: {
     title: "Liam O’Connor",
     description: "Porsche Taycan Turbo GT with Weissach Package",
     modelSignature: "taycan", // Nuevo modelo Taycan Turbo GT
+    
   },
   {
     value: "User2",
@@ -61,7 +62,7 @@ const Demo = () => {
 
   return (
     <div
-      className="flex items-center justify-center min-h-screen bg-cover bg-center text-white"
+      className="flex items-center justify-center pt-16 bg-cover bg-center text-white"
       style={{ backgroundImage: 'url("/path/to/your/image.jpg")' }}>
       <div className="bg-black/50 p-6 rounded-lg backdrop-blur-md max-w-lg w-full">
         <h2 className="text-xl font-semibold mb-6 text-center">

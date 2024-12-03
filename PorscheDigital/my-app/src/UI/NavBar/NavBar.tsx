@@ -1,10 +1,6 @@
 import { PIcon } from "@porsche-design-system/components-react";
 
 const IconNavigation = () => {
-  const navigateToSearch = () => {
-    console.log("Navigating to Search");
-  };
-
   const navigateToHome = () => {
     console.log("Navigating to Home");
   };
@@ -23,7 +19,7 @@ const IconNavigation = () => {
         className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
         onClick={navigateToHome}
       >
-        <PIcon theme="auto" name="home" aria={{ "aria-label": "Home icon" }} />
+        <PIcon theme="auto" name="home" size="large" aria={{ "aria-label": "Home icon" }} />
         <span className="text-sm mt-1">Home</span>
       </button>
 
@@ -31,14 +27,14 @@ const IconNavigation = () => {
         className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
         onClick={navigateToFavs}
       >
-        <PIcon theme="auto" name="heart" aria={{ "aria-label": "Favorites" }} />
+        <PIcon theme="auto" name="heart" size="large" aria={{ "aria-label": "Favorites" }} />
         <span className="text-sm mt-1">Favorites</span>
       </button>
       <button
         className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
         onClick={toggleDropdownMenu}
       >
-        <PIcon theme="auto" name="user" aria={{ "aria-label": "User Menu" }} />
+        <PIcon theme="auto" name="user" size="large" aria={{ "aria-label": "User Menu" }} />
         <span className="text-sm mt-1">Profile</span>
       </button>
     </div>

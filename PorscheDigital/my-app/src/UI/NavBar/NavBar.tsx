@@ -1,5 +1,4 @@
-import "./App.css"; // Importa los estilos de tu proyecto
-import {PIcon} from "@porsche-design-system/components-react";
+import { PIcon } from "@porsche-design-system/components-react";
 
 const IconNavigation = () => {
   const navigateToSearch = () => {
@@ -19,29 +18,28 @@ const IconNavigation = () => {
   };
 
   return (
-    <div className="icon-navigation-container">
-      <button className="icon-container">
-        <PIcon
-          theme="auto"
-          // name="briefcase"
-          aria={{ "aria-label": "Briefcase icon" }}
-        />
-      </button>
-      <button className="icon-container" onClick={navigateToSearch}>
-        <PIcon
-          theme="auto"
-          name="search"
-          aria={{ "aria-label": "Search icon" }}
-        />
-      </button>
-      <button className="icon-container" onClick={navigateToHome}>
+    <div className="fixed bottom-0 left-0 right-0 bg-black text-white py-3 shadow-lg flex justify-around items-center z-50">
+      <button
+        className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
+        onClick={navigateToHome}
+      >
         <PIcon theme="auto" name="home" aria={{ "aria-label": "Home icon" }} />
+        <span className="text-sm mt-1">Home</span>
       </button>
-      <button className="icon-container" onClick={navigateToFavs}>
-        <PIcon theme="auto" name="heart" aria={{ "aria-label": "Heart icon" }} />
+
+      <button
+        className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
+        onClick={navigateToFavs}
+      >
+        <PIcon theme="auto" name="heart" aria={{ "aria-label": "Favorites" }} />
+        <span className="text-sm mt-1">Favorites</span>
       </button>
-      <button className="icon-container" onClick={toggleDropdownMenu}>
-        <PIcon theme="auto" name="user" aria={{ "aria-label": "User icon" }} />
+      <button
+        className="flex flex-col items-center justify-center text-gray-300 hover:text-white transition"
+        onClick={toggleDropdownMenu}
+      >
+        <PIcon theme="auto" name="user" aria={{ "aria-label": "User Menu" }} />
+        <span className="text-sm mt-1">Profile</span>
       </button>
     </div>
   );

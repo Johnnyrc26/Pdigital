@@ -1,17 +1,17 @@
-import { PIcon } from "@porsche-design-system/components-react";
+import { PIcon } from "@porsche-design-system/components-react"
 
 const IconNavigation = () => {
   const navigateToHome = () => {
-    console.log("Navigating to Home");
-  };
+    console.log("Navigating to Home")
+  }
 
   const navigateToFavs = () => {
-    console.log("Navigating to Favorites");
-  };
+    console.log("Navigating to Favorites")
+  }
 
   const toggleDropdownMenu = () => {
-    console.log("Toggling User Menu");
-  };
+    console.log("Toggling User Menu")
+  }
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-black text-white py-3 shadow-lg flex justify-around items-center z-50">
@@ -38,7 +38,7 @@ const IconNavigation = () => {
         <span className="text-sm mt-1">Profile</span>
       </button>
     </div>
-  );
-};
+  )
+}
 
-export default IconNavigation;
+export default IconNavigation

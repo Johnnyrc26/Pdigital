@@ -13,7 +13,11 @@ export const BackgroundHome = (): JSX.Element => (
       <div className="flex justify-center">
         <img src="public/assets/porsche-crest@2x.png" alt="Porsche Logo" />
       </div>
-      <PHeading className="text-center pt-6">Welcome to Porsche Assistant</PHeading>
+      <div className="flex justify-center mt-4">
+        <PHeading tag="h1" size="x-large">
+          Welcome to Porsche Assistant
+        </PHeading>
+      </div>
       <div className="flex justify-center">
         <RadiusCard />
       </div>

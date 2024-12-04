@@ -9,12 +9,12 @@ export const BackgroundHome = (): JSX.Element => (
       backgroundImage: `url('/assets/eurocar.webp')`, // Ruta desde la carpeta `public`
     }}
   >
-    <div className="text-white p-6 max-w-md w-full mb-24">
+    <div className="text-white p-6 max-w-md w-full mb-20">
       <div className="flex justify-center">
         <img src="public/assets/porsche-crest@2x.png" alt="Porsche Logo" />
       </div>
       <div className="flex justify-center mt-4">
-        <PHeading tag="h1" size="x-large">
+        <PHeading tag="h1" size="x-large" className="w-100% text-center absolute">
           Welcome to Porsche Assistant
         </PHeading>
       </div>

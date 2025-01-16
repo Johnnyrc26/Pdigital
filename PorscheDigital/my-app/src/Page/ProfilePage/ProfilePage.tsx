@@ -61,8 +61,8 @@ export const ProfilePage = (): JSX.Element => {
             state: { selectedUser: state?.selectedUser },
           });
         }}
-        label="Some Label"
-        description="Some Description"
+        label="Descubre"
+        description="El auto que soñaste, hecho realidad."
         aspectRatio="1/1"
         className="p-6"
         href={""}

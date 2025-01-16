@@ -35,15 +35,8 @@ const Demo = () => {
     title: string
     modelSignature:
       | "taycan"
-      | "cayman"
-      | "panamera"
-      | "718"
       | "911"
-      | "boxster"
       | "cayenne"
-      | "macan"
-      | "turbo-s"
-      | "turbo"
   } | null>(null)
 
   const handleNext = () => {

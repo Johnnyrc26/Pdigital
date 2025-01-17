@@ -19,20 +19,20 @@ export const Accordion = (): JSX.Element => {
   return (
     <>
       <div className='pl-4 pr-4'>
-      <PAccordion theme="auto" heading="History" headingTag="h3" open={isOpen1} onUpdate={onUpdate1}>
-        <PText theme="auto">{content}</PText>
-      </PAccordion>
+        <PAccordion theme="auto" heading="History" headingTag="h3" open={isOpen1} onUpdate={onUpdate1}>
+          <PText theme="auto">{content}</PText>
+        </PAccordion>
         <PAccordion theme="auto" heading="Shop" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
-        <PText theme="auto">{content}</PText>
-      </PAccordion>
-      <PAccordion theme="auto" heading="FAQ" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
-        <PText theme="auto">{content}</PText>
-      </PAccordion>
-      <PAccordion theme="auto" heading="User Manual" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
-        <PText theme="auto">{content}</PText>
-      </PAccordion>
+          <PText theme="auto">{content}</PText>
+        </PAccordion>
+        <PAccordion theme="auto" heading="FAQ" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
+          <PText theme="auto">{content}</PText>
+        </PAccordion>
+        <PAccordion theme="auto" heading="User Manual" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
+          <PText theme="auto">{content}</PText>
+        </PAccordion>
 
-</div>
+      </div>
     </>
   );
 };

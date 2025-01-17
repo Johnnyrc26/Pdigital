@@ -105,9 +105,7 @@ export const ProfilePage = (): JSX.Element => {
             state: { selectedUser: state?.selectedUser },
           });
         }}
-        label="Some Label"
-        description="Some Description"
-        aspectRatio="1/1"
+        label="Some Label" description="Your Car" weight="semi-bold" compact={true}
         className="p-6">
         <img src={carImage} alt="Some image description" />
       </PLinkTile>

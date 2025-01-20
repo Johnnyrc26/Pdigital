@@ -15,23 +15,23 @@ const ButtonList = (): JSX.Element => {
 
   return (
     <div className="text-center">
-      <PCarousel theme="auto" slidesPerPage={1} heading="Selecciona un tema">
-        <PButtonTile 
-          label="ID de Porsche y cuenta en My Porsche" 
-          description="Información sobre tu ID y cuenta"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("ID de Porsche y cuenta en My Porsche")}
+      <PCarousel theme="auto" slidesPerPage={1} heading="Select a topic">
+        <PButtonTile
+          label="Porsche ID and My Porsche Account"
+          description="Information about your ID and account"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Porsche ID and My Porsche Account")}
         >
           <img src="public/assets/club-sport-story@2x.webp" alt="Some image description" />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Registro y acceso a My Porsche" 
-          description="Cómo registrarte y acceder"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Registro y acceso a My Porsche")}
+        <PButtonTile
+          label="Registration and Access to My Porsche"
+          description="How to register and log in"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Registration and Access to My Porsche")}
         >
           <img
             src="/public/assets/hero.webp"
@@ -39,52 +39,52 @@ const ButtonList = (): JSX.Element => {
           />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Servicios Porsche Connect" 
-          description="Servicios de Porsche Connect"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Servicios Porsche Connect")}
+        <PButtonTile
+          label="Porsche Connect Services"
+          description="Porsche Connect Services"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Porsche Connect Services")}
         >
           <img src="public/assets/mission-x-story.webp" alt="Some image description" />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Funciones y servicios adicionales (FoD)" 
-          description="FoD y servicios adicionales"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Funciones y servicios adicionales (Functions on Demand - FoD)")}
+        <PButtonTile
+          label="Functions and Additional Services (Functions on Demand - FoD)"
+          description="FoD and additional services"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Functions and Additional Services (Functions on Demand - FoD)")}
         >
           <img src="/public/assets/photo-1705973437997-ef5b80dfef86.webp" alt="Some image description" />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Cargar el Porsche" 
-          description="Cargar tu Porsche"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Cargar el Porsche")}
+        <PButtonTile
+          label="Charging Your Porsche"
+          description="Charging Your Porsche"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Charging Your Porsche")}
         >
           <img src="/public/assets/2307-bp-porsche-chargingstation-01-0126-230720-64c3da5733f18.webp" alt="Some image description" />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Asistencia y problemas técnicos" 
-          description="Soluciones técnicas"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Asistencia y problemas técnicos")}
+        <PButtonTile
+          label="Technical Assistance and Issues"
+          description="Technical solutions"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Technical Assistance and Issues")}
         >
           <img src="/public/assets/photo-1457332253637-21d324d25df9.webp" alt="Some image description" />
         </PButtonTile>
 
-        <PButtonTile 
-          label="Otros temas generales" 
-          description="Otros temas Generales"
-          compact={true} 
-          weight="semi-bold" 
-          onClick={() => handleButtonClick("Otros temas generales")}
+        <PButtonTile
+          label="Other General Topics"
+          description="Other general topics"
+          compact={true}
+          weight="semi-bold"
+          onClick={() => handleButtonClick("Other General Topics")}
         >
           <img src="/public/assets/photo-1715504636015-4b922d974296.webp" alt="Some image description" />
         </PButtonTile>

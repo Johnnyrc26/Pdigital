@@ -1,3 +1,4 @@
+
 import { useCallback, useState } from "react"
 import { useLocation } from "react-router-dom"
 import {
@@ -29,10 +30,12 @@ export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
   const [isOpen3, setIsOpen3] = useState<boolean>(false)
   const [isOpen4, setIsOpen4] = useState<boolean>(false)
 
+
   const onUpdate1 = useCallback((e: CustomEvent<AccordionUpdateEventDetail>) => {
     setIsOpen1(e.detail.open)
   }, [])
   const onUpdate2 = useCallback((e: CustomEvent<AccordionUpdateEventDetail>) => {
+
     setIsOpen2(e.detail.open)
   }, [])
   const onUpdate3 = useCallback((e: CustomEvent<AccordionUpdateEventDetail>) => {
@@ -50,13 +53,13 @@ export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
       shopLink: "https://shop.porsche.com/es/es-ES/search?query=taycan",
     },
     cayenne: {
-      history: "The Porsche Cayenne broke barriers by proving that an SUV can be as thrilling as a sports car. With the introduction of hybrid technology, the Cayenne Hybrid 2024 takes versatility to the next level, delivering Porsche’s signature power with a focus on efficiency and sustainability. This model combines luxury and functionality, featuring interiors designed for maximum comfort and advanced driving systems that make every journey unforgettable. The Cayenne Hybrid is not just an SUV; it’s a statement that performance and environmental responsibility can coexist.",
+      history: "The Porsche Cayenne debuted in 2002, marking a bold move for a brand traditionally known for sports cars. Initially controversial, it was Porsche\'s first SUV, designed to combine the luxury and performance of a sports car with the versatility of an off-road vehicle. The Cayenne helped Porsche recover from financial difficulties in the late 1990s, quickly becoming a commercial success and paving the way for other SUVs in the lineup.\n\nThe Cayenne is now synonymous with luxury, power, and innovation. It offers a range of high-performance engines, including hybrids, ensuring efficiency meets thrilling driving dynamics. Loved by families and executives alike, the Cayenne represents Porsche’s ability to adapt while staying true to its core values of precision and excellence.",
       faq: "What is the electric-only range of the Cayenne Hybrid 2024? It offers an impressive range of up to 40 km under ideal conditions.",
       manual: "The Porsche Cayenne Hybrid 2024 manual contains in-depth information on its hybrid system and advanced driving technologies.",
       shopLink: "https://shop.porsche.com/es/es-ES/search?query=cayenne",
     },
     "911": {
-      history: "Since its debut in 1964, the Porsche 911 has become a global icon of design, power, and exclusivity. Each generation preserves the unmistakable essence of the 911, combining its timeless silhouette with modern technology. The Targa 4 GTS stands out among the 911 family with its unique roof design, blending the best of a coupe and a convertible, allowing drivers to enjoy open-air driving without losing the dynamic performance that defines Porsche. This model is not just the pinnacle of automotive design but also a tribute to decades of innovation and perfection on the road.",
+      history: "First introduced in 1964, the Porsche 911 is the heart and soul of Porsche. Designed by Ferdinand “Butzi” Porsche, the 911 was intended to replace the Porsche 356, offering a more powerful, modern, and versatile sports car. Its timeless silhouette, rear-engine layout, and unmatched driving dynamics have made it one of the most iconic and enduring sports cars in history.\n\nOver the decades, the 911 has evolved through numerous generations, incorporating cutting-edge technology while retaining its unmistakable DNA. From dominating motorsport events like Le Mans to becoming a symbol of prestige on the streets, the 911 is a car that appeals to both racers and enthusiasts alike.\n\nEach version of the 911 reflects Porsche\'s relentless pursuit of perfection, with models like the Turbo, GT3, and Targa showcasing its versatility. For many, the 911 is more than a car—it’s a legacy that has stood the test of time for over half a century.",
       faq: "How does the Targa roof mechanism work? The roof can be opened or closed at the touch of a button in under 20 seconds.",
       manual: "Dive into the user manual for the Porsche 911 Targa 4 GTS to discover detailed insights into its design, safety features, and performance specs.",
       shopLink: "https://shop.porsche.com/es/es-ES/search?query=911",
@@ -66,22 +69,32 @@ export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
   const selectedCarInfo = carInfo[carModel] || carInfo["taycan"]
 
   return (
-    <div className="pl-4 pr-4">
-      <PAccordion theme="auto" heading="History" headingTag="h3" open={isOpen1} onUpdate={onUpdate1}>
-        <PText theme="auto">{selectedCarInfo.history}</PText>
-      </PAccordion>
-      <PAccordion theme="auto" heading="Shop" headingTag="h3" open={isOpen2} onUpdate={onUpdate2}>
-        <PLink theme="auto" href={selectedCarInfo.shopLink} target="_blank" rel="noopener noreferrer">
-          Visit the official Porsche Shop for {carModel.toUpperCase()}
-        </PLink>
-      </PAccordion>
-      <PAccordion theme="auto" heading="FAQ" headingTag="h3" open={isOpen3} onUpdate={onUpdate3}>
-        <PText theme="auto">{selectedCarInfo.faq}</PText>
-      </PAccordion>
-      <PAccordion theme="auto" heading="User Manual" headingTag="h3" open={isOpen4} onUpdate={onUpdate4}>
-        <PText theme="auto">{selectedCarInfo.manual}</PText>
-      </PAccordion>
-    </div>
+  <>
+      <div className='pl-4 pr-4'>
+        <PAccordion theme='auto' heading='History' headingTag='h3' open={isOpen1} onUpdate={onUpdate1}>
+          <div className='mb-2 mt-2 bg-gray-900' style={{ display: 'inline-block' }}>
+            <PModelSignature theme="auto" safeZone={false} model={carModel} />
+          </div>
+          <PText theme='auto' style={{ whiteSpace: 'pre-line' }}>{contentHistory(carModel)}</PText>
+        </PAccordion>
+        <PAccordion theme='auto' heading='Shop' headingTag='h3' open={isOpen2} onUpdate={onUpdate2}>
+          <PText theme='auto'>{contentShop}</PText>
+          <PText theme='auto' weight="bold" className='mt-3 mb-3'>Access the Porsche Online Shop here:</PText>
+          <PLink theme='auto' href='https://shop.porsche.com/'>Shop</PLink>
+        </PAccordion>
+        <PAccordion theme='auto' heading='FAQ' headingTag='h3' open={isOpen3} onUpdate={onUpdate3}>
+          <PText theme='auto'>{contentFAQ}</PText>
+          <PText theme='auto' weight="bold" className='mt-3 mb-3'>Visit the Porsche FAQ page here:</PText>
+          <PLink theme='auto' href='https://www.porsche.com/usa/accessoriesandservices/porscheservice/faq/'>FAQs</PLink>
+        </PAccordion>
+        <PAccordion theme='auto' heading='User Manual' headingTag='h3' open={isOpen4} onUpdate={onUpdate4}>
+          <PText theme='auto'>{contentManual}</PText>
+          <PText theme='auto' weight="bold" className='mt-3 mb-3'>Find your Porsche owner's manual here:</PText>
+          <PLink theme='auto' href={`https://manual.porsche.com/${carModel}`}>Manuals</PLink>
+        </PAccordion>
+
+      </div>
+    </>
   )
 }
 

@@ -3,30 +3,36 @@ import { PText, PButton, PModelSignature } from "@porsche-design-system/componen
 import { useNavigate } from "react-router-dom"
 
 const items: {
-  value: string
-  title: string
-  description: string
-  modelSignature: "taycan" | "911" | "cayenne"
+
+  value: string;
+  title: string;
+  description: string;
+  modelSignature:
+  | "taycan"
+  | "911"
+  | "cayenne"
 }[] = [
-  {
-    value: "User1",
-    title: "Liam O’Connor",
-    description: "Porsche Taycan Turbo GT with Weissach Package",
-    modelSignature: "taycan", // Nuevo modelo Taycan Turbo GT
-  },
-  {
-    value: "User2",
-    title: "Isabella Rossi",
-    description: "Porsche Cayenne Hybrid 2024",
-    modelSignature: "cayenne", // Cambiado a Cayenne Hybrid 2024
-  },
-  {
-    value: "User3",
-    title: "Ricardo Peréz",
-    description: "Porsche 911 Targa 4 GTS",
-    modelSignature: "911", // Cambiado a 911 Targa 4 GTS
-  },
-]
+    {
+      value: "User1",
+      title: "Liam Fischer",
+      description: "Porsche Taycan Turbo GT with Weissach Package",
+      modelSignature: "taycan", // Nuevo modelo Taycan Turbo GT
+
+    },
+    {
+      value: "User2",
+      title: "Emma Schmidt",
+      description: "Porsche Cayenne Hybrid 2024",
+      modelSignature: "cayenne", // Cambiado a Cayenne Hybrid 2024
+    },
+    {
+      value: "User3",
+      title: "Walter Meyer",
+      description: "Porsche 911 Targa 4 GTS",
+      modelSignature: "911", // Cambiado a 911 Targa 4 GTS
+    },
+  ];
+ master
 
 const Demo = () => {
   const navigate = useNavigate()
@@ -34,10 +40,12 @@ const Demo = () => {
     value: string
     title: string
     modelSignature:
+ develop
       | "taycan"
       | "911"
       | "cayenne"
   } | null>(null)
+
 
   const handleNext = () => {
     if (selected) {
@@ -93,11 +101,13 @@ const RadioCardItem: React.FC<RadioCardItemProps> = ({ label, description, isSel
   return (
     <button
       onClick={onClick}
+ develop
       className={`w-full text-left p-4 rounded-lg transition-all backdrop-blur-md focus:outline-none ${
         isSelected ? "border-2 border-gray-500 bg-white/30 shadow-lg" : "border border-gray-300 bg-white/20"
       }`}
       aria-pressed={isSelected}
     >
+
       <PText theme="auto" size="medium">
         {label}
       </PText>

@@ -61,7 +61,6 @@ export const ProfilePage = (): JSX.Element => {
             state: { selectedUser: state?.selectedUser },
           });
         }}
- develop
         label="Descubre"
         description="El auto que soñaste, hecho realidad."
         aspectRatio="1/1"

@@ -1,4 +1,3 @@
-
 import { useCallback, useState } from "react"
 import { useLocation } from "react-router-dom"
 import {
@@ -6,6 +5,7 @@ import {
   PAccordion,
   PText,
   PLink,
+  PModelSignature
 } from "@porsche-design-system/components-react"
 
 type LocationState = {
@@ -20,7 +20,7 @@ interface AccordionProps {
   selectedCar: { [key: string]: any }; // Adjust the type according to the actual structure of the car model object
 }
 
-export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
+export const Accordion: React.FC<AccordionProps> = ({ selectedCar }) => {
   const location = useLocation()
   const state = location.state as LocationState | undefined
   const carModel = state?.selectedUser?.modelSignature || "taycan" // Valor por defecto
@@ -35,7 +35,6 @@ export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
     setIsOpen1(e.detail.open)
   }, [])
   const onUpdate2 = useCallback((e: CustomEvent<AccordionUpdateEventDetail>) => {
-
     setIsOpen2(e.detail.open)
   }, [])
   const onUpdate3 = useCallback((e: CustomEvent<AccordionUpdateEventDetail>) => {
@@ -69,28 +68,27 @@ export const Accordion : React.FC<AccordionProps> = ({ selectedCar }) => {
   const selectedCarInfo = carInfo[carModel] || carInfo["taycan"]
 
   return (
-  <>
+    <>
       <div className='pl-4 pr-4'>
         <PAccordion theme='auto' heading='History' headingTag='h3' open={isOpen1} onUpdate={onUpdate1}>
           <div className='mb-2 mt-2 bg-gray-900' style={{ display: 'inline-block' }}>
             <PModelSignature theme="auto" safeZone={false} model={carModel} />
           </div>
-          <PText theme='auto' style={{ whiteSpace: 'pre-line' }}>{contentHistory(carModel)}</PText>
+          <PText theme='auto' style={{ whiteSpace: 'pre-line' }}>{selectedCarInfo.history}</PText>
         </PAccordion>
         <PAccordion theme='auto' heading='Shop' headingTag='h3' open={isOpen2} onUpdate={onUpdate2}>
-          <PText theme='auto'>{contentShop}</PText>
           <PText theme='auto' weight="bold" className='mt-3 mb-3'>Access the Porsche Online Shop here:</PText>
           <PLink theme='auto' href='https://shop.porsche.com/'>Shop</PLink>
         </PAccordion>
         <PAccordion theme='auto' heading='FAQ' headingTag='h3' open={isOpen3} onUpdate={onUpdate3}>
-          <PText theme='auto'>{contentFAQ}</PText>
+          <PText theme='auto'>{selectedCarInfo.faq}</PText>
           <PText theme='auto' weight="bold" className='mt-3 mb-3'>Visit the Porsche FAQ page here:</PText>
           <PLink theme='auto' href='https://www.porsche.com/usa/accessoriesandservices/porscheservice/faq/'>FAQs</PLink>
         </PAccordion>
         <PAccordion theme='auto' heading='User Manual' headingTag='h3' open={isOpen4} onUpdate={onUpdate4}>
-          <PText theme='auto'>{contentManual}</PText>
+          <PText theme='auto'>{selectedCarInfo.manual}</PText>
           <PText theme='auto' weight="bold" className='mt-3 mb-3'>Find your Porsche owner's manual here:</PText>
-          <PLink theme='auto' href={`https://manual.porsche.com/${carModel}`}>Manuals</PLink>
+          <PLink theme='auto' href={`https://manual.porsche.com/`}>Manuals</PLink>
         </PAccordion>
 
       </div>

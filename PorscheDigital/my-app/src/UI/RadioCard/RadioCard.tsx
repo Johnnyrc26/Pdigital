@@ -32,7 +32,6 @@ const items: {
       modelSignature: "911", // Cambiado a 911 Targa 4 GTS
     },
   ];
- master
 
 const Demo = () => {
   const navigate = useNavigate()
@@ -40,10 +39,9 @@ const Demo = () => {
     value: string
     title: string
     modelSignature:
- develop
-      | "taycan"
-      | "911"
-      | "cayenne"
+    | "taycan"
+    | "911"
+    | "cayenne"
   } | null>(null)
 
 
@@ -101,10 +99,8 @@ const RadioCardItem: React.FC<RadioCardItemProps> = ({ label, description, isSel
   return (
     <button
       onClick={onClick}
- develop
-      className={`w-full text-left p-4 rounded-lg transition-all backdrop-blur-md focus:outline-none ${
-        isSelected ? "border-2 border-gray-500 bg-white/30 shadow-lg" : "border border-gray-300 bg-white/20"
-      }`}
+      className={`w-full text-left p-4 rounded-lg transition-all backdrop-blur-md focus:outline-none ${isSelected ? "border-2 border-gray-500 bg-white/30 shadow-lg" : "border border-gray-300 bg-white/20"
+        }`}
       aria-pressed={isSelected}
     >
 

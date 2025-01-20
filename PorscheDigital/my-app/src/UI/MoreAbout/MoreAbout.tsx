@@ -22,7 +22,6 @@ const MoreAbout: React.FC<CarInfoTileProps> = ({
   carImage,
   heading,
   primaryLink,
-  secondaryLink,
 }) => {
   return (
     <div className="p-6 bg-gray-800 rounded-lg shadow-md text-white">
@@ -51,24 +50,7 @@ const MoreAbout: React.FC<CarInfoTileProps> = ({
             {primaryLink.label}
           </Link>
         )}
-        {/* Secondary Link */}
-        {secondaryLink.external ? (
-          <a
-            href={secondaryLink.to}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline hover:text-blue-300"
-          >
-            {secondaryLink.label}
-          </a>
-        ) : (
-          <Link
-            to={secondaryLink.to}
-            className="text-blue-500 underline hover:text-blue-300"
-          >
-            {secondaryLink.label}
-          </Link>
-        )}
+        
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ interface AccordionProps {
   selectedCar: { [key: string]: any }; // Adjust the type according to the actual structure of the car model object
 }
 
-export const Accordion: React.FC<AccordionProps> = ({ selectedCar }) => {
+export const Accordion: React.FC<AccordionProps> = ({ }) => {
   const location = useLocation()
   const state = location.state as LocationState | undefined
   const carModel = state?.selectedUser?.modelSignature || "taycan" // Valor por defecto
